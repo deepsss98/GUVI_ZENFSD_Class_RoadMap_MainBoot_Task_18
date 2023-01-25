@@ -71,7 +71,7 @@ card_details+=`<div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mb-3 mt-3">
 <div class="card h-100" style="background-image: linear-gradient(to right top, #ccbe9b, #a4a789, #818f7a, #64766b, #4e5d59);">
 <div class="card-header text-white bg-dark p-2 text-center">${a[0].name.common}</div>
   <div class="card-body text-center text-white">
-  <img class="card-img-top" src="${a[0].flags.png}" alt="" style="width:300px;height: 200px">
+  <img class="img-fluid card-img-top" src="${a[0].flags.png}" alt="" style="width:300px;height: 200px">
   <div class="mt-2">Capital: ${a[0].capital} </div>
   <div class="card-text">Region: ${a[0].continents} </div>
   <div class="card-text">Country Code: ${country_code} </div>
